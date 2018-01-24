@@ -21,7 +21,7 @@ public class ConstructorTest
         //print out information about all Employee objects
 
         for (Employee e : staff)
-            System.out.println("name=" +e.getName()+ ",id=" +e.getId()+ ",salary=" +e.getSalary());
+            System.out.println("name=" +e.getName()+ ",id=" +e.getId()+ ",salary=" +e.getNothing());
     }
 }
 
@@ -77,10 +77,7 @@ class Employee
         return name;
     }
 
-    public double getSalary()
-    {
-        return salary;
-    }
+
 
     public int getId()
     {
@@ -88,7 +85,7 @@ class Employee
     }
 }
 
-
+// 删除了 getSalary 方法
 
 
 
